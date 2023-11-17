@@ -1,92 +1,92 @@
-# Lista de Tarefas
+# Task List
 
-Este aplicativo é uma lista de tarefas simples desenvolvida com Django.
+This application is a simple to-do list developed with Django.
 
-## Instalação
+## Installation
 
-Para instalar o aplicativo, siga estas etapas:
+To install the application, follow these steps:
 
-1. Clone o repositório do GitHub:
+1. Clone the GitHub repository:
 
-```
+```bash
 git clone https://github.com/Eliseudev96/To-Do-List-with-django.git
 ```
 
-2. Entre na pasta do projeto:
+2. Enter the project folder:
 
-```
-cd lista-de-tarefas
+```bash
+cd task-list
 ```
 
-3. Instale as dependências do Python:
+3. Install Python dependencies:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-## Execução
+## Execution
 
-Para executar o aplicativo, siga estas etapas:
+To run the application, follow these steps:
 
-1. Crie um ambiente virtual:
+1. Create a virtual environment:
 
-```
+```bash
 python -m venv venv
 ```
 
-2. Ative o ambiente virtual:
+2. Activate the virtual environment:
 
-```
+```bash
 source venv/bin/activate
 ```
 
-3. Execute o aplicativo:
+3. Run the application:
 
-```
+```bash
 python manage.py runserver
 ```
 
-O aplicativo será executado na porta 8000.
+The application will run on port 8000.
 
-## Dependências
+## Dependencies
 
-O aplicativo requer as seguintes dependências do Python:
+The application requires the following Python dependencies:
 
 * Django
 * Bootstrap
 
-## Como usar
+## How to Use
 
-O aplicativo é simples de usar. Para criar uma nova tarefa, siga estas etapas:
+The application is easy to use. To create a new task, follow these steps:
 
-1. Acesse o endereço `http://localhost:8000/`.
-2. Clique no botão "Nova tarefa".
-3. Preencha o formulário com as informações da tarefa.
-4. Clique no botão "Salvar".
+1. Access the address `http://localhost:8000/`.
+2. Click the "New Task" button.
+3. Fill out the form with task information.
+4. Click the "Save" button.
 
-Para ver uma lista de tarefas, siga estas etapas:
+To view a list of tasks, follow these steps:
 
-1. Acesse o endereço `http://localhost:8000/`.
-2. A lista de tarefas será exibida na página.
+1. Access the address `http://localhost:8000/`.
+2. The list of tasks will be displayed on the page.
 
-Para editar uma tarefa, siga estas etapas:
+To edit a task, follow these steps:
 
-1. Acesse o endereço `http://localhost:8000/`.
-2. Clique no botão "Editar" ao lado da tarefa que você deseja editar.
-3. Faça as alterações necessárias no formulário.
-4. Clique no botão "Salvar".
+1. Access the address `http://localhost:8000/`.
+2. Click the "Edit" button next to the task you want to edit.
+3. Make the necessary changes in the form.
+4. Click the "Save" button.
 
-Para excluir uma tarefa, siga estas etapas:
+To delete a task, follow these steps:
 
-1. Acesse o endereço `http://localhost:8000/`.
-2. Clique no botão "Excluir" ao lado da tarefa que você deseja excluir.
-3. Clique no botão "Sim" para confirmar a exclusão.
+1. Access the address `http://localhost:8000/`.
+2. Click the "Delete" button next to the task you want to delete.
+3. Click the "Yes" button to confirm the deletion.
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas. Para contribuir, siga estas etapas:
+Contributions are welcome. To contribute, follow these steps:
 
-1. Faça um fork do repositório do GitHub.
-2. Crie uma nova branch para sua contribuição.
-3. Faça as alterações necessárias no código.
-4. Envie um pull request para a branch principal.
+1. Fork the GitHub repository.
+2. Create a new branch for your contribution.
+3. Make the necessary changes in the code.
+4. Submit a pull request to the main branch.
