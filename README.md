@@ -1,4 +1,3 @@
-```
 # Lista de Tarefas
 
 Este aplicativo é uma lista de tarefas simples desenvolvida com Django.
@@ -91,8 +90,3 @@ Contribuições são bem-vindas. Para contribuir, siga estas etapas:
 2. Crie uma nova branch para sua contribuição.
 3. Faça as alterações necessárias no código.
 4. Envie um pull request para a branch principal.
-
-## Licença
-
-Este aplicativo é licenciado sob a Licença MIT.
-```
